@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={luckiestGuy.className}>{children}</body>
+    <html lang="en" className="size-full">
+      <body className={`${luckiestGuy.className} size-full`}>{children}</body>
     </html>
   );
 }
